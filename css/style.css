@@ -25,6 +25,17 @@ body {
   animation: fadeIn 1s linear;
 }
 
+
+#weather{
+  color:white;
+  font-size:30px;
+  position: fixed;
+  margin-top:10cm;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 #quote{
   color:white;
   font-size:30px;
