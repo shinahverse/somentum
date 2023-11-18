@@ -7,15 +7,19 @@
     <title>Somentum</title>
 </head>
 <body>
-  <!-- 1. 로그인하기 -->
-  <form id="frmLogin" class="hidden">
+
+    <!-- 1. 로그인하기 -->
+    <form id="frmLogin" class="hidden">
     <input required maxlength="19" type="text" placeholder="당신의 이름을 적어 주세요."/>
     <input type="submit" value="Log In" />
-  </form>
+    </form>
 
-  <h1 id="greeting" class="hidden"></h1>
+    <h1 id="greeting" class="hidden"></h1>
 
-  
-  <script src="js/greeting.js"></script>
+    <!-- 2. 시계 만들기 -->
+    <h2 id="clock">00:00</h2>
+
+    <script src="js/greeting.js"></script>
+    <script src="js/clock.js"></script>
 </body>
 </html>
