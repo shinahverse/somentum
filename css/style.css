@@ -6,6 +6,14 @@ body {
   display: none;
 }
 
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
  
 .Image {
   position: absolute;
