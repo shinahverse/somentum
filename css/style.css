@@ -25,7 +25,6 @@ body {
   animation: fadeIn 1s linear;
 }
 
-
 #weather{
   color:white;
   font-size:30px;
@@ -45,3 +44,51 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+/*
+
+h1{
+  color:white;
+  font-size:120px;
+  letter-spacing: -5px;
+  line-height:2px;
+}
+
+#greeting{
+  color:white;
+  font-size:40px;
+}
+
+#lstTodo{
+  color:white;
+  position:absolute;
+  top:610px;
+  left:1600px;
+  font-size:35px;
+  font-weight:bold;
+}
+
+input::placeholder {
+  color:white;
+}
+
+input {
+  background-color: transparent;
+  color:white !important;
+  width: 250px;
+  height: 32px;
+  font-size: 25px;
+  font-weight:bold;
+  border: 0;
+  border-bottom: 2px solid white;
+  outline: none;
+  padding-left: 10px;
+}
+
+#frmTodo{
+  color:white;
+  position:absolute;
+  top:600px;
+  left:1600px;
+}
+*/
