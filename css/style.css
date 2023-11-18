@@ -15,3 +15,13 @@ body {
   z-index: -1;
   animation: fadeIn 1s linear;
 }
+
+#quote{
+  color:white;
+  font-size:30px;
+  position: fixed;
+  margin-top:12cm;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
