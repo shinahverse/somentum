@@ -15,7 +15,7 @@ function onGeoOk(position){
         const weahter = document.querySelector("#weather span:first-child");
         const city = document.querySelector("#weather span:last-child");
         weahter.innerText = data.weather[0].description;
-        city.innerText = data.name;
+        city.innerText = `${data.name}, ${data.main.temp}℃`;
     });
 
 }
